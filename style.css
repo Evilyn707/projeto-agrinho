@@ -5,9 +5,10 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #007BFF;
     color: white;
-    padding: 15px 20px;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -16,7 +17,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -24,21 +25,31 @@ nav a {
     text-decoration: none;
 }
 
-main {
+section {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 30px;
+.fotos {
+    display: flex;
+    gap: 10px;
 }
 
-h2 {
-    color: #000000;
+.fotos img {
+    width: 200px; /* Ajuste conforme necessário */
+}
+
+.videos {
+    margin-top: 20px;
+}
+
+.videos iframe {
+    width: 560px; /* Ajuste conforme necessário */
+    height: 315px; /* Ajuste conforme necessário */
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
     background-color: #333;
     color: white;
+    text-align: center;
+    padding: 10px 0;
 }

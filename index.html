@@ -4,45 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tecnologia no Campo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Tecnologia no Campo</h1>
         <nav>
             <ul>
-                <li><a href="#agricultura-inteligente">Agricultura Inteligente</a></li>
-                <li><a href="#drones">Drones na Agricultura</a></li>
-                <li><a href="#sensores">Sensores e IoT</a></li>
-                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#inovações">Inovações</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="agricultura-inteligente">
-            <h2>Agricultura Inteligente</h2>
-            <p>A agricultura inteligente utiliza tecnologia para otimizar a produção agrícola, aumentando a eficiência e reduzindo desperdícios.</p>
-        </section>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>A tecnologia tem transformado a agricultura, trazendo inovação e eficiência. Neste projeto, exploramos como ferramentas modernas estão melhorando a vida no campo.</p>
+    </section>
 
-        <section id="drones">
-            <h2>Drones na Agricultura</h2>
-            <p>Os drones são usados para monitorar culturas, realizar mapeamento e até mesmo aplicar pesticidas de forma precisa.</p>
-        </section>
+    <section id="inovações">
+        <h2>Inovações Tecnológicas</h2>
+        <ul>
+            <li>Uso de drones para monitoramento de culturas</li>
+            <li>Sensores de umidade do solo para irrigação eficiente</li>
+            <li>Aplicativos móveis para gestão agrícola</li>
+            
+        </ul>
+    </section>
 
-        <section id="sensores">
-            <h2>Sensores e IoT</h2>
-            <p>Sensores conectados à Internet das Coisas (IoT) ajudam os agricultores a monitorar condições do solo e clima em tempo real.</p>
-        </section>
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="fotos">
+            <img src="FOTO1.jpeg" alt="Drone sobre lavoura">
+            <img src="foto2.jpg" alt="Sensor de umidade">
+            
+        </div>
 
-        <section id="sustentabilidade">
-            <h2>Tecnologia e Sustentabilidade</h2>
-            <p>A tecnologia pode promover práticas agrícolas sustentáveis, reduzindo o uso de recursos naturais e protegendo o meio ambiente.</p>
-        </section>
-    </main>
+        <h3>Vídeos</h3>
+        <div class="videos">
+            <iframe src="https://www.youtube.com/embed/exemplo" frameborder="0" allowfullscreen></iframe>
+           
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; 2025 Tecnologia no Campo. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
